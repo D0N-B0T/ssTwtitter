@@ -22,7 +22,7 @@ Si quieres personalizar el estilo del botón de captura de pantalla, puedes hace
 
 ## Créditos
 
-Esta extensión fue creada por [tu nombre o nombre del equipo] utilizando HTML, CSS, JavaScript y la biblioteca html2canvas.
+Esta extensión fue creada utilizando HTML, CSS, JavaScript y la biblioteca html2canvas.
 
 ## Contribución
 
