@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tweet Screenshot",
+  "version": "1.0",
+  "description": "Captura un screenshot del tweet en TweetDeck y lo copia al portapapeles",
+  "permissions": ["clipboardWrite", "tabs", "scripting","activeTab","storage","contextMenus"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*"],
+      "js": ["html-to-image.min.js", "content_script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

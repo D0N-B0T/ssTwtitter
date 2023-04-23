@@ -1,0 +1,14 @@
+.capture-button {
+  background: none;
+  border: none;
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.capture-button:hover {
+  fill: #000;
+}
